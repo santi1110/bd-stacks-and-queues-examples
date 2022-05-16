@@ -91,13 +91,15 @@ public class StackAndQueueExamples {
 /********************************************************************************
  *  Queue - FIFO Collection - like a line at the bank or a drive thru or line at DisneyWorld
  *                            used when you want to retrieve data in the same order it was put in
- *  
+ *
+ *  Normal access to a Queue is performed using: .push() ond .poll()
+ *
  *  Some methods:
  *  
- *  .add(object)      - add element to end of Queue
- *  .offer(object)    - same as add()
- *  .poll()           - same as pop()
- *  .remove()         - same as pop()
+ *  .push(object)     - add element to end of Queue - Exception thrown is element cannot be addded
+ *  .offer(object)    - same as add() - except true returned if element added, false if not
+ *  .poll()           - return top element from Queue and remove it - null returned if Queue is empty
+ *  .remove()         - same as poll = except an Exception is thrown is the Queue is empty
  *  .peek()           - return top element without removing it
  *  .size()           - return the number of elements in the Queue
  *  .isEmpty()        - return true if Queue contains no elements
@@ -111,10 +113,10 @@ public class StackAndQueueExamples {
 		myQueue.add("Daniel");  // add to end of the queue
 		//myQueue.push("Potsey");   // Put at the start of Queue - NOT allowed when using Queue implementation
 		                            //                             IS alllowed when using LinkedList implementation
-		
 		myQueue.add("Brian");
 		myQueue.add("Mauli");
-		myQueue.add("Byron");
+		myQueue.add("Petar");
+		myQueue.add("Tom");
 			
 		itemNum = 0;
 	
