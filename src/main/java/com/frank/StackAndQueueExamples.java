@@ -100,14 +100,15 @@ public class StackAndQueueExamples {
  *  .offer(object)    - same as add() - except true returned if element added, false if not
  *  .poll()           - return top element from Queue and remove it - null returned if Queue is empty
  *  .remove()         - same as poll = except an Exception is thrown is the Queue is empty
- *  .peek()           - return top element without removing it
+ *  .peek()           - return top element without removing it - return null if Queue is empty
+ *  .element()        - same as peek, but throws and exception if Queue is empty
  *  .size()           - return the number of elements in the Queue
  *  .isEmpty()        - return true if Queue contains no elements
  *  .clear()          - remove all elements in the Queue
  * 
  **********************************************************************************/
 	    // a Simple queue is implemented as a LinkedList
-		Queue<String> myQueue = new LinkedList<String>();
+		Queue<String> myQueue = new LinkedList<>();
 
 		myQueue.add("Frank");   // add to end of the queue
 		myQueue.add("Daniel");  // add to end of the queue
