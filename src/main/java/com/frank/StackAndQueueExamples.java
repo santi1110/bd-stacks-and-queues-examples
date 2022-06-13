@@ -23,7 +23,7 @@ public class StackAndQueueExamples {
  *  
  *  Some methods:
  *  
- *  .add(object)      - add element to top of Stack
+ *  .push(object)      - add element to top of Stack
  *  .pop()            - return and remove top element on the Stack
  *  .remove(index)    - remove element at index given
  *  .peek()           - return top element without removing it
@@ -45,7 +45,7 @@ public class StackAndQueueExamples {
 		myStack.push("McCoy");   // Add an element to top of the Stack
 		myStack.push("Uhura");   // Add an element to top of the Stack
 		myStack.push("Scotty");	 // Add an element to top of the Stack
-		myStack.push("Piccard"); // Add an element to top of the Stack
+		myStack.push("Picard");  // Add an element to top of the Stack
 		myStack.push("Worf");    // Add an element to top of the Stack
 		myStack.push("Riker");   // Add an element to top of the Stack
 		myStack.push("Geordi");  // Add an element to top of the Stack
