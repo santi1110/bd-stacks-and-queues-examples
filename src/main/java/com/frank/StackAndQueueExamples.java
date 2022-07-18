@@ -96,7 +96,7 @@ public class StackAndQueueExamples {
  *
  *  Some methods:
  *  
- *  .push(object)     - add element to end of Queue - Exception thrown is element cannot be addded
+ *  .add(object)     - add element to end of Queue - Exception thrown is element cannot be addded
  *  .offer(object)    - same as add() - except true returned if element added, false if not
  *  .poll()           - return top element from Queue and remove it - null returned if Queue is empty
  *  .remove()         - same as poll = except an Exception is thrown is the Queue is empty
