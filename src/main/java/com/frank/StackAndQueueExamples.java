@@ -127,7 +127,7 @@ public class StackAndQueueExamples {
 		System.out.println("--------------------------------------------");		
 			
 		System.out.println("\nNumber items in myQueue - .size(): " + myQueue.size());
-		System.out.println("  Getting Top of myQueue - .pop(): " + myQueue.poll());
+		System.out.println(" Getting Top of myQueue - .poll(): " + myQueue.poll());
 		System.out.println("Number items in myQueue - .size(): " + myQueue.size());
 		System.out.println("   Top Element on Queue - .peek(): " + myQueue.peek());
 		System.out.println("Number items in myQueue - .size(): " + myQueue.size());
