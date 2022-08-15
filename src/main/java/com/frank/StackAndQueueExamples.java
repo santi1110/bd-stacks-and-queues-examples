@@ -92,7 +92,7 @@ public class StackAndQueueExamples {
  *  Queue - FIFO Collection - like a line at the bank or a drive thru or line at DisneyWorld
  *                            used when you want to retrieve data in the same order it was put in
  *
- *  Normal access to a Queue is performed using: .push() ond .poll()
+ *  Normal access to a Queue is performed using: .add() ond .poll()
  *
  *  Some methods:
  *  
