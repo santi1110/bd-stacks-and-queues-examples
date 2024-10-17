@@ -86,6 +86,11 @@ public class StackAndQueueExamples {
 		
 		System.out.println("Number items in clonedStack - .size(): " + clonedStack.size());
 		System.out.println("    Number items in myStack - .size(): " + myStack.size());
+
+		while(!myStack.isEmpty()){
+			System.out.println(myStack.pop());
+
+		}
 			
 		System.out.println("--------------------------------------------");
 /********************************************************************************
@@ -133,6 +138,10 @@ public class StackAndQueueExamples {
 		System.out.println("Number items in myQueue - .size(): " + myQueue.size());
 
 		System.out.println("    Number items in myQueue - .size(): " + myQueue.size());
+
+		while(!myQueue.isEmpty()){
+			System.out.println(myQueue.poll());
+		}
 			
 		System.out.println("--------------------------------------------");	
 	}
